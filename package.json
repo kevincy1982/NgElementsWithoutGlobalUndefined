@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ngw serve",
-    "build": "ngw build --prod --output-hashing=none --extractCss=false",
+    "build": "ng build --prod --output-hashing=none --extractCss=false",
     "package": "cat dist/real-webcomponent-angular6/{runtime,polyfills,styles,scripts,main}.js > dist/real-webcomponent-angular6/first.component.js",
     "test": "ngw test",
     "lint": "ngw lint",
